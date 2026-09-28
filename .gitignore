@@ -1,0 +1,46 @@
+# Сборки, кэш и временные каталоги
+_tmp/
+_original_png/
+cache/
+logs/
+*.log
+*.spin
+*.bak
+*.tmp
+
+# Сторонние бинарники
+# chafa — сторонняя программа (см. раздел РАЗДЕЛЫ и ЛИЦЕНЗИЯ), она НЕ ПОМЕЩАЕТСЯ
+# В ИСТОРИЮ git: её нужно положить отдельно (winget install hpjansson.Chafa).
+Chafa.exe
+Tools/Chafa.exe
+
+# Мёртвый дубль модуля
+# SkyNet_T800.psm1 (с подчёркиванием) — устаревшая копия SkyNet.T800.psm1.
+# Ни один модуль его не импортирует.
+Modules/SkyNet_T800.psm1
+
+# Отсрочные копии в Tools/
+Tools/backup_v2.4.1/
+Tools/legacy/
+Tools/*.psm1
+Tools/skynet.json
+Tools/fix.ps1
+Tools/fix2.ps1
+Tools/test_img.ps1
+Tools/test_img2.ps1
+Tools/generate_logo_v2.4.1.ps1
+
+# Системы и редакторы
+.DS_Store
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+
+# Готовые релизы (собираются вручную, в репозиторий не попадают)
+*.zip
+dist/
+

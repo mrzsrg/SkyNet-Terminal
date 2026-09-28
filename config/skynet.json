@@ -1,0 +1,69 @@
+{
+  "Version": "2.5.3",
+  "ProjectName": "SkyNet",
+  "Company": "Cyberdyne Systems",
+  "DefaultLogo": "assets\\skynet_logo.png",
+
+  "Logo": {
+    "MinBytes": 8192
+  },
+
+  "Render": {
+    "Charset": "auto",
+    "ColorMode": "Original",
+    "AutoSize": true,
+    "MaxWidth": 400,
+    "MaxHeight": 140,
+    "DefaultWidth": 160,
+    "DefaultHeight": 50,
+    "ChafaPath": "",
+    "Fallback": "built-in"
+  },
+
+  "Animation": {
+    "Marquee": true,
+    "MarqueeText": "SKYNET v2.5.3  ::  LOADING NEURAL NET CORE  ::  CYBERDYNE SYSTEMS  ::  DEFENSE GRID UPLINK  ::  DO NOT POWER OFF  ::  ",
+    "MarqueeSpeed": 34,
+    "HoldSeconds": 2,
+        "FadeInMs": 1400,
+    "FadeOutMs": 2000,
+    "ExitDelayMs": 2500,
+    "Flicker": true
+  },
+
+  "BootSequence": {
+    "MemDumpLines": 35,
+    "FinalDelayMs": 200,
+    "DelayMultiplier": 1,
+    "WaitKey": false,
+    "TypeSoundEnabled": true,
+    "TypeDelayMs": 12,
+    "TypeSoundThrottleMs": 55,
+    "TypeLineAccent": false
+  },
+
+  "Logging": {
+    "Enabled": true,
+    "File": "logs\\skynet_boot.log",
+    "MinLevel": "INFO",
+    "MaxSizeKB": 5120,
+    "Rotate": true,
+    "Console": false
+  },
+
+  "Terminal": {
+    "Utf8": true,
+    "Ansi": true,
+    "Sixel": true,
+    "CineMode": false
+  },
+
+  "Audio": {
+    "Enabled": true,
+    "Volume": 0.7,
+    "Pack": "assets\\audio",
+    "KeyThrottleMs": 45
+  }
+}
+
+
